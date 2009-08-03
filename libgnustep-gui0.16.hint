@@ -1,0 +1,10 @@
+category: GNUstep
+requires: gnustep-gui libaudiofile0 libgcc1 libgif4 libgnustep-base1.18 libjpeg62 libobjc2 libpng12 libtiff5
+external-source: gnustep-base
+sdesc: "GNUstep AppKit library (runtime)"
+ldesc: "The GNUstep gui library is a library of graphical user interface 
+classes written completely in the Objective-C language; the classes are 
+based upon the OpenStep specification as release by NeXT Software, Inc.  
+These classes include graphical objects such as buttons, text fields, 
+popup lists, browser lists, and windows; there are also many associated 
+classes for handling events, colors, fonts, pasteboards and images."
