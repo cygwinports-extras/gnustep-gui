@@ -1,7 +1,7 @@
 inherit gnustep
 
 DESCRIPTION="GNUstep GUI libraries"
-HOMEPAGE="http://www.gnustep.org/"
+
 SRC_URI="mirror://gnustep/core/${P}.tar.gz"
 
 PKG_NAMES="${PN} lib${PN}0.16 lib${PN}-devel"
