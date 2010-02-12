@@ -1,0 +1,15 @@
+Not anymore we don't! :-)
+
+--- origsrc/gnustep-gui-0.16.0/Source/NSBitmapImageRep+JPEG.m	2008-10-20 19:55:37.000000000 -0500
++++ src/gnustep-gui-0.16.0/Source/NSBitmapImageRep+JPEG.m	2010-02-12 02:38:36.192573700 -0600
+@@ -53,10 +53,6 @@ typedef int jpeg_boolean;
+ #endif
+ #endif
+ #include <jpeglib.h>
+-#if defined(__CYGWIN__)
+-/* Cygwin uses a patched jpeg */
+-#define GSTEP_PROGRESSIVE_CODEC
+-#endif
+ 
+ #include <setjmp.h>
+ 
