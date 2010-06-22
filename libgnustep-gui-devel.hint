@@ -1,6 +1,6 @@
 category: GNUstep
 requires: gcc4-objc gnustep-make libgnustep-base-devel libgnustep-gui0.16
-external-source: gnustep-base
+external-source: gnustep-gui
 sdesc: "GNUstep AppKit library (development)"
 ldesc: "The GNUstep gui library is a library of graphical user interface 
 classes written completely in the Objective-C language; the classes are 

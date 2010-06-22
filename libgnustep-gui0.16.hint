@@ -1,6 +1,6 @@
 category: GNUstep
 requires: gnustep-gui libaudiofile0 libgcc1 libgif4 libgnustep-base1.18 libjpeg7 libobjc2 libpng12 libtiff5
-external-source: gnustep-base
+external-source: gnustep-gui
 sdesc: "GNUstep AppKit library (runtime)"
 ldesc: "The GNUstep gui library is a library of graphical user interface 
 classes written completely in the Objective-C language; the classes are 
