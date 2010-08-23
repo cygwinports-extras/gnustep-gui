@@ -5,9 +5,9 @@ DESCRIPTION="GNUstep GUI libraries"
 SRC_URI="mirror://gnustep/core/${P}.tar.gz"
 PATCH_URI="0.16.0-jpeg7.patch"
 
-PKG_NAMES="${PN} lib${PN}0.16 lib${PN}-devel"
+PKG_NAMES="${PN} lib${PN}0.18 lib${PN}-devel"
 gnustep_gui_CONTENTS="--exclude=Libraries usr/bin/*.exe usr/lib/GNUstep/ usr/share/doc/ usr/share/man/"
-libgnustep_gui0_16_CONTENTS="usr/bin/*-0_16.dll usr/lib/GNUstep/Libraries/"
+libgnustep_gui0_18_CONTENTS="usr/bin/*-0_18.dll usr/lib/GNUstep/Libraries/"
 libgnustep_gui_devel_CONTENTS="usr/include/ usr/lib/lib* usr/share/GNUstep/ usr/share/info/"
 
 CYGCONF_ARGS="--enable-libgif --disable-ungif --disable-cups"

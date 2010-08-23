@@ -1,5 +1,5 @@
 category: GNUstep
-requires: gcc4-objc gnustep-make libgnustep-base-devel libgnustep-gui0.16
+requires: gcc4-objc gnustep-make libgnustep-base-devel libgnustep-gui0.18
 external-source: gnustep-gui
 sdesc: "GNUstep AppKit library (development)"
 ldesc: "The GNUstep gui library is a library of graphical user interface 
