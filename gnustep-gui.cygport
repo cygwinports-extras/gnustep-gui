@@ -1,0 +1,25 @@
+inherit gnustep
+
+NAME="gnustep-gui"
+VERSION=0.22.0
+RELEASE=2
+CATEGORY="GNUstep"
+SUMMARY="GNUstep GUI libraries"
+DESCRIPTION="The GNUstep GUI library is a library of graphical user interface
+classes written completely in the Objective-C language; the classes are based
+upon the OpenStep specification as release by NeXT Software, Inc.  These
+classes include graphical objects such as buttons, text fields, popup lists,
+browser lists, and windows; there are also many associated classes for handling
+events, colors, fonts, pasteboards and images."
+SRC_URI="mirror://gnustep/core/${P}.tar.gz"
+PATCH_URI="0.16.0-jpeg7.patch"
+
+PKG_NAMES="${PN} lib${PN}0.22 lib${PN}-devel"
+gnustep_gui_SUMMARY="GNUstep GUI services"
+gnustep_gui_REQUIRES="gnustep-back"
+gnustep_gui_CONTENTS="--exclude=Libraries usr/bin/*.exe usr/lib/GNUstep/ usr/share/doc/ usr/share/man/"
+libgnustep_gui0_22_CONTENTS="usr/bin/*-0_22.dll usr/lib/GNUstep/Libraries/"
+libgnustep_gui_devel_REQUIRES="libgnustep-base-devel"
+libgnustep_gui_devel_CONTENTS="usr/include/ usr/lib/lib* usr/share/GNUstep/ usr/share/info/"
+
+CYGCONF_ARGS="--enable-libgif --disable-ungif --disable-cups"
